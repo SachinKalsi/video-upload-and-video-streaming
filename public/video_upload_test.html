@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <script src='js/video_upload.js'></script>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body class='main-margin'>
+    <div id='main-div'>
+      <form enctype="multipart/form-data" name='videoUpload' id='video-upload' >
+        <div class='form-group'>
+          <label class='custom-label'> Select file to upload: </label>
+          <input accept="video/mp4" type="file" name="user-file">
+        </div>
+
+        <div class='form-group'>
+          <label class='custom-label' style='vertical-align: top;'> Video Details:</label>
+          <textarea rows="10" cols="80" name='details'></textarea>
+        </div>
+
+        <div style="padding-left:15%">
+          <input type="submit" id='submit' value="Upload File" onclick='onSubmit(event)' name="submit">
+        </div>
+      </form>
+    </div>
+    <div style="padding-left:15%" id='message'>
+    </div>
+    </div>
+  </body>
+</html>

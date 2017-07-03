@@ -1,0 +1,22 @@
+{
+  "name": "video_upload",
+  "version": "1.0.0",
+  "description": "Video Upload & Video Stream using Node JS",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "Video Upload"
+    "Video Stream",
+    "Node JS",
+    "Express JS",
+  ],
+  "author": "sachinkalsi15@gmail.com, me@sachinkalsi.me",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3",
+    "multer": "^1.3.0"
+  }
+}

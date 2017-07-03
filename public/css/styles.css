@@ -1,0 +1,13 @@
+.main-margin {
+  margin-left:10%;
+  margin-top:4%;
+}
+
+.custom-label {
+  width: 14%;
+  display: inline-block;
+}
+
+.form-group {
+  padding: 1%
+}
