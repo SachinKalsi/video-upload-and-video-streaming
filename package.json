@@ -8,10 +8,10 @@
     "start": "node server.js"
   },
   "keywords": [
-    "Video Upload"
+    "Video Upload",
     "Video Stream",
     "Node JS",
-    "Express JS",
+    "Express JS"
   ],
   "author": "sachinkalsi15@gmail.com, me@sachinkalsi.me",
   "license": "ISC",
