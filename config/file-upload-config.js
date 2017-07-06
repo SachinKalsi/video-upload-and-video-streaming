@@ -4,11 +4,10 @@ const fs = require('fs');
 function fileFilter (req, file, callback) {
   var errorMessage = '';
   if (!file || file.mimetype !== 'video/mp4') {
-    errorMessage = 'Only mp4 video files are allowed!';
+    errorMessage = 'Wrong file type \"' + file.originalname.split('.').pop() + '\" found. Only mp4 video files are allowed!';
   }
-
   if(errorMessage) {
-    return callback({error: errorMessage, code: 'LIMIT_FILE_TYPE'}, false);
+    return callback({errorMessage: errorMessage, code: 'LIMIT_FILE_TYPE'}, false);
   }
   callback(null, true);
 }
