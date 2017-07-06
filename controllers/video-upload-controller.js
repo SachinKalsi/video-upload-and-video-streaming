@@ -33,6 +33,7 @@ module.exports.uploadFile = function(req, res) {
       name: req.file.originalname,
       size: req.file.size,
       path: req.file.path,
+      encoding: req.file.encoding,
       details: req.body.details ? req.body.details : ''
     }
     handleDb.saveToDB(attributesToBeSaved);

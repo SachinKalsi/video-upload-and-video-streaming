@@ -41,7 +41,7 @@ module.exports.renderVideo = function(req, res) {
   <html>
     <title>Sample Video Stream</title>
     <body>
-        <video controls>
+        <video width="320" height="240" controls>
             <source src="/video/`+ storedFileName +`/play" type="video/mp4"/>
             Your browser does not support the <code>video</code> element.
         </video>
