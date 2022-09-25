@@ -14,3 +14,5 @@ A Video upload and Video streaming web application, made using Node JS &amp; Exp
 
 * [Node](https://nodejs.org) - A JavaScript runtime built on Chrome's V8 JavaScript engine
 * [Express](https://expressjs.com) - A web framework for Node.js
+
+*_Update_*: The heroku app link (https://video-upload-and-stream.herokuapp.com/) might not work. The heroko has made some restrictions on free dynos
